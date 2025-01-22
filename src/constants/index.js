@@ -26,7 +26,7 @@ export const clientReviews = [
     id: 1,
     name: 'Sameer Shah',
     position: 'CEO, Sofya furniture',
-    img: 'assets/review1.png',
+    img: 'assets/sofya.png',
     review:
       'Working with Nathan was a game-changer for our web development project. Nathan was a fantastic experience. Highly recommend him for any web dev projects.',
   },
@@ -34,7 +34,7 @@ export const clientReviews = [
     id: 2,
     name: 'Josephine Kisaka',
     position: 'HR Manager at GISA',
-    img: 'assets/review2.png',
+    img: 'assets/review1.png',
     review:
       'Nathan’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our Engineering site and He’s a true professional! Fantastic work.',
   },
