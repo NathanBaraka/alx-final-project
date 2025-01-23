@@ -21,9 +21,11 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      .send(//service_sr7rs9m
+        //template_4nekh4d
+        //jMWYyUORxHgWgFmAz
+        'service_sr7rs9m',
+        'template_4nekh4d',
         {
           from_name: form.name,
           to_name: 'Nathan Baraka',
@@ -31,7 +33,7 @@ const Contact = () => {
           to_email: 'nathanbaraka23@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        jMWYyUORxHgWgFmAz,
       )
       .then(
         () => {
